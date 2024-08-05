@@ -1,0 +1,879 @@
+.text_small {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff;
+}
+
+.text_large {
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 84.81px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    color: #fff;
+}
+
+.text_avarage {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff;
+
+}
+
+@media (max-width: 768px) {
+    .footer {
+        height: auto;
+    }
+
+    .text-footer-1 {
+        text-align: center;
+    }
+
+    .custom-li {
+        margin-right: 10px;
+    }
+
+    .text-li-footer-main,
+    .text-li-footer-sub {
+        text-align: center;
+    }
+}
+
+.custom-color {
+    color: #CF1D1D;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+.navbar-transparent {
+    background-color: transparent !important;
+    border: none;
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .nav-link {
+    color: #fff !important;
+}
+
+.container-header {
+    max-width: 1300px !important;
+}
+
+
+.btn-custom-red {
+    background-color: #CF1D1D !important;
+    color: white;
+    border-radius: 3px;
+    width: 17%;
+    border: #CF1D1D !important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 30px !important;
+    /* Base padding */
+    transition: background-color 0.3s, border-color 0.3s;
+    /* Smooth transition for hover effects */
+    display: inline-block;
+    /* Ensures button behaves as inline-block for responsiveness */
+    text-decoration: none;
+    /* Removes underline from button text */
+}
+
+@media (max-width: 767px) {
+    .text_large {
+        font-size: 24px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .text_avarage {
+        font-size: 16px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .btn-custom-red,
+    .btn-custom-white {
+        width: 100%;
+        /* Make buttons full width on smaller screens */
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+}
+
+
+.btn-contact-red {
+    background-color: #CF1D1D !important;
+    color: white;
+    border: 2px solid #CF1D1D !important;
+    /* Adjusted border to match background */
+    border-radius: 3px;
+    font-family: Poppins, sans-serif;
+    /* Ensure fallback font is used */
+    font-size: 16px;
+    /* Base font size for larger screens */
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding: 10px 20px;
+    /* Base padding */
+    transition: background-color 0.3s, border-color 0.3s;
+    /* Smooth transition for hover effects */
+    display: inline-block;
+    /* Ensures button behaves as inline-block for responsiveness */
+    text-decoration: none;
+    /* Removes underline from button text */
+}
+
+@media (max-width: 767px) {
+    .btn-contact-red {
+        width: 30%;
+        /* Full width on smaller screens */
+        font-size: 14px;
+        /* Smaller font size on smaller screens */
+        padding: 12px;
+        /* Increased padding for better touch targets */
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-contact-red {
+        width: auto;
+        /* Default width on larger screens */
+        font-size: 16px;
+        /* Default font size */
+        padding: 10px 20px;
+        /* Default padding */
+    }
+}
+
+@media (max-width: 767px) {
+
+    .btn-custom-red,
+    .btn-custom-white {
+        width: 50%;
+        /* Full width on smaller screens */
+        font-size: 14px;
+        /* Smaller font size on smaller screens */
+        padding: 12px 0;
+        /* Adjust padding for better touch targets */
+    }
+
+
+    .gap-3 {
+        gap: 15px;
+        /* Adjust gap between buttons */
+    }
+}
+
+@media (min-width: 768px) {
+
+    .btn-custom-red,
+    .btn-custom-white {
+        width: auto;
+        /* Default width on larger screens */
+        font-size: 16px;
+        /* Default font size */
+        padding: 12px 24px;
+        /* Default padding */
+    }
+
+}
+
+/* Optional: Hover and Focus Effects */
+.btn-custom-red:hover,
+.btn-custom-red:focus,
+.btn-custom-white:hover,
+.btn-custom-white:focus {
+    outline: none;
+}
+
+.btn-custom-white {
+    background-color: white !important;
+    color: #202020 !important;
+    border-radius: 3px;
+    /* width: 17%; */
+    border: white !important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding: 15px 30px !important;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+.text-footer-1 {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.15px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    color: #F8F8F8;
+    ;
+}
+
+.custom-li {
+    list-style: none;
+    padding: 0;
+}
+/* WhatsApp Icon */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    z-index: 9999;
+    /* Ensure it's on top */
+    transition: background-color 0.3s ease;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.footer ul .custom-li {
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+}
+
+.footer ul .custom-li a {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #CF1D1D;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.text-li-footer-main {
+    font-family: Poppins;
+    font-size: 20.28px;
+    font-weight: 700;
+    line-height: 30.42px;
+    text-align: left;
+    color: #ffff;
+}
+
+.text-li-footer-sub {
+    font-family: Poppins;
+    font-size: 18.03px;
+    font-weight: 300;
+    line-height: 40.56px;
+    text-align: left;
+    color: #ffff !important;
+}
+
+.nav-link {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #F8F8F8;
+}
+
+.about_us {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34.1px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    color: #CF1D1D;
+}
+
+.text-about_us {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 56.47px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #11063D;
+}
+
+.text-about_us-mini {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    color: #696969;
+
+}
+
+.main-color {
+    color: #CF1D1D;
+}
+
+.btn.custom-button {
+    background-color: #F2F2F2;
+    color: #11063D;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn.custom-button:hover,
+.btn.custom-button.active {
+    background-color: #CF1D1D;
+    color: #FFFFFF;
+    border: #c81010;
+}
+
+.image-container {
+    display: none;
+}
+
+.image-container.active {
+    display: block;
+}
+
+.faq-item {
+    width: 972px;
+    margin-bottom: 10px;
+    /* Space between each FAQ item */
+}
+
+.dropdown-header {
+    width: 100%;
+    height: 84px;
+    position: relative;
+    border-radius: 5px 0 0 0;
+    background: #F1F1F1;
+    opacity: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    /* Needed for icon positioning */
+    transition: background-color 0.3s ease;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #333335 !important;
+}
+
+.dropdown-header.open {
+    background-color: #202020;
+    /* Change the background color when open */
+    color: #FFF !important;
+    /* Optional: Change text color for contrast */
+}
+
+.dropdown-icon {
+    position: absolute;
+    right: 20px;
+    /* Adjust to fit your layout */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    /* Adjust size as needed */
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.dropdown-icon.open {
+    display: none;
+}
+
+.dropdown-header.open .dropdown-icon.closed {
+    display: none;
+}
+
+.dropdown-header.open .dropdown-icon.open {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    background: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #696969;
+    /* Adjust to fit the container */
+}
+
+.dropdown-content.open {
+    display: block;
+}
+
+.dropdown-content p {
+    margin: 0;
+    /* Remove default margin for better spacing */
+}
+
+.text-contact_us-mini {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.8px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    color: #696969;
+}
+
+.contact-form {
+    max-width: 533px;
+    width: 100%;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.8px;
+    letter-spacing: 0.03em;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    color: #000000;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: auto;
+    min-height: 120px;
+    /* Adjust height for textarea */
+    resize: vertical;
+}
+
+.contact-form button {
+    width: 40%;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+        height: auto;
+        font-size: 14px;
+    }
+}
+
+#services {
+    height: 600px;
+}
+
+@media (max-width: 1200px) {
+    #services {
+        height: 500px;
+    }
+}
+
+@media (max-width: 992px) {
+    #services {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    #services {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    #services {
+        height: auto;
+        /* Auto height for very small screens */
+        padding: 20px 0;
+        /* Optional: padding adjustment for small screens */
+    }
+}
+
+/* Responsive alignment */
+@media (max-width: 768px) {
+    .button-about {
+        flex-direction: column;
+    }
+
+    .text-about_us {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Adjust image widths for small screens */
+@media (max-width: 576px) {
+    .image-container .img-fluid {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    #contact_us {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    #contact_us .row {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #contact_us {
+        padding: 1rem 0;
+    }
+
+    #contact_us .row {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    #contact_us .custom-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-about_us {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-contact_us-mini {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 770px !important;
+    }
+
+    .faq-item {
+        width: 100%;
+    }
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: 0;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0;
+    width: 100%;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    /* Increase height for larger images */
+    object-fit: cover;
+    /* Ensure images cover the container without distortion */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(114, 21, 21, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    font-size: 1.5rem;
+    /* Increase font size for better visibility */
+}
+
+.arrow {
+    font-size: 36px;
+    /* Increase arrow size */
+    display: block;
+}
+
+p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    /* Increase font size for better readability */
+}
+
+/* General transition for buttons */
+.btn-custom-red,
+.btn-custom-white,
+.btn-contact-red {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effects for .btn-custom-red and .btn-custom-white */
+.btn-custom-red:hover,
+.btn-custom-white:hover {
+    background-color: #c81010;
+    /* Matching background color */
+    transform: translateY(-4px) scale(1.05);
+    /* Slightly enlarge and move up */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    /* Larger shadow */
+}
+
+/* Hover effects for .btn-contact-red */
+.btn-contact-red:hover {
+    background-color: #c81010;
+    /* Slightly darker shade */
+    transform: translateY(-4px) scale(1.05);
+    /* Slightly enlarge and move up */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    /* Larger shadow */
+}
+
+/* Button Animation */
+.btn-contact-red {
+    position: relative;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+/* Button Hover Animation */
+.btn-contact-red::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.btn-contact-red:hover::before {
+    transform: scaleX(1);
+}
+
+/* Optional: Focus effect for buttons */
+.btn-custom-red:focus,
+.btn-custom-white:focus,
+.btn-contact-red:focus {
+    outline: none;
+    /* Remove the default outline */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    /* Larger shadow */
+    transform: translateY(-4px) scale(1.05);
+    /* Slightly enlarge and move up */
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #CF1D1D !important;
+
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    /* Full width underline on hover */
+}
+
+.nav-link.active::after {
+    width: 100%;
+    /* Full width underline for the active link */
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #CF1D1D !important;
+
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    /* Full width underline on hover */
+}
+
+.nav-link.active::after {
+    width: 100%;
+    /* Full width underline for the active link */
+}
+
+/* Hover state */
+.btn-contact-red:hover {
+    background-color: #c81010;
+    /* Slightly darker shade */
+    transform: scale(1.05);
+    /* Slightly enlarge the button */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /* Larger shadow */
+}
+
+/* Container Animation */
+
+
+
+/* Button Animation */
+.btn-contact-red {
+    position: relative;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+/* Button Hover Animation */
+.btn-contact-red::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.btn-contact-red:hover::before {
+    transform: scaleX(1);
+}
+
+
+.dropdown-content.show {
+    display: block;
+    opacity: 1;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* CSS smooth scrolling */
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scroll-to-top img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scroll-to-top:hover img {
+    transform: translateY(-5px);
+}
+.whatsapp-icon img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-icon:hover img {
+    transform: translateY(-5px);
+}
+
+@media (min-width: 576px) {
+
+    /* Small devices (landscape phones, 576px and up) */
+    .col-md-2,
+    .col-md-1 {
+        flex: 0 0 auto;
+        width: 16.66667%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* Medium devices (tablets, 768px and up) */
+    .col-md-2 {
+        flex: 0 0 auto;
+        width: 16.66667%;
+    }
+
+    .col-md-1 {
+        flex: 0 0 auto;
+        width: 14.28571%;
+    }
+}
